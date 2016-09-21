@@ -5,6 +5,14 @@ public class Shape {
 	private String fillcolor;
 	private String linecolor;
 	
+	public Shape(){
+		
+	}
+	
+	public Shape(String fillcolor, String linecolor){
+		this.fillcolor=fillcolor;
+		this.linecolor=linecolor;
+	}
 	public String getFillcolor() {
 		return fillcolor;
 	}
@@ -22,6 +30,6 @@ public class Shape {
 	}
 
 	public void draw()	{
-		System.out.println("구체적인 도형은 상속을 받아 자식클래스에서 구현하세요.");
+		/*System.out.println("구체적인 도형은 상속을 받아 자식클래스에서 구현하세요.");*/
 	}
 }
